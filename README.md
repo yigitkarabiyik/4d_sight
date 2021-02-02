@@ -4,7 +4,7 @@ purpuse of this study is to find 4 corner coordinates of small area images in
 the large image.
 
 there is a find_kernel function in the basic.py file which takes two inputs
-larde and small image. Transpose, mirror image by origin, x axis, y axis
+large and small image. Transpose, mirror image by origin, x axis, y axis
 of small image obtained with first for loob. In the second for loob, get array 
 of small image with rotated 90, 180 and 270 degree. In last two for loobs 
 create kernel to run in the large image and compare both of it. If catched the
